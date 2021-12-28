@@ -15,6 +15,8 @@ const vaildation = () => {
   const passwordval = password.value.trim();
   const repassval = repassword.value.trim();
 
+//   username
+
   if (usernameval === "") {
     document.getElementById("user").innerHTML = "** enter your name";
     return false;
@@ -50,6 +52,7 @@ const vaildation = () => {
     return false;
   }
 
+//   re password-
 
   if (repassval != passwordval) {
     document.getElementById("RePass").innerHTML =
